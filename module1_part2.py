@@ -14,7 +14,7 @@ if __name__== "__main__":
 
     # Divide num1/num2
     if num2 == 0:
-        print("In devision second number should not be zero")
+        print("Sorry!! Division cant happen as in devision second number should not be zero")
     else:
 
         num_div = num1 / num2
