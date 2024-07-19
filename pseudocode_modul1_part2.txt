@@ -1,9 +1,12 @@
-1. BEGIN
-2. Get first number.
-3. Get second number.
-4. Compute the multiplication of first number and second number.
-5. Display the result.
-6. If second number is 0 then display the message and end the program.
-7. Otherwise divide first number to second number.
-8. Display the result.
-10. End
+1.	BEGIN
+2.	Loop until the user chooses to exit.
+    2.1	Ask the user - "What operation would you like to perform? (Multiplicatopn / Division / Exit)"
+    2.2	If the user chooses "Exit", terminate the loop and end the program.
+    2.3	Else, proceed to the next steps.
+        2.3.1	Get the first number from the user.
+        2.3.2	Get the second number from the user.
+        2.3.3	Try to perform the operation:
+            2.3.3.1	If the operation is "Multiplication", Multiply the two numbers and display the result.
+            2.3.3.2	If the operation is "Division", divide the first number to the second number and display the result.
+2.4	Catch any errors that occur and display a user-friendly error message.
+3.	END
